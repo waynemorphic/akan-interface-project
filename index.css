@@ -14,6 +14,70 @@ body {
     
 }
 
+.headings {
+    color: black;
+    font-family: Raleway;
+    font-size: 2 em;
+    text-align: center;
+    padding: 2px;
+    letter-spacing: 2px;
+    word-spacing: 4px; 
+    position: sticky;
+}
+
+.parent-div {
+    display: flex;
+    width: 100vw;
+    align-items:flex-start;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.kwame {
+    width: 50%;
+    height: 35vh;
+    align-items: flex-start; 
+    margin-right: 150px;
+}
+
+.paragraph-kwame {
+    color: khaki;
+    text-align: justify; 
+    font-family: raleway;
+    font-size: 1.5em;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    padding: 10px; 
+    margin: 20px;
+}
+
+.form-div {
+    width: 50%;
+    height: 35vh;
+    align-items:flex-start;
+    margin-right: 30px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.birthday {
+    color: khaki;
+    text-align: center;
+    font-family: raleway;
+    font-size: 1.5em;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+.footer {
+    color: khaki;
+    font-family: Raleway;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 250px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    position: sticky;
+}
 
 https://images.unsplash.com/photo-1589104602532-9cee07f8f62c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=728&q=80
 https://images.unsplash.com/photo-1583108607572-a8c0bfc741fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
