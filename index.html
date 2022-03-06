@@ -26,20 +26,18 @@
                     On the forms on the right, kindly enter your birthday date and choose your gender to know your Akan name.
                 </p>
             </div> 
-            <div class="form-div">
+            <div id="Akan-form">
                 <form class="birthday">
                     <label for="birthday">Enter Birthday</label><br><br>
                     <input type="date"id="birthday" name="birthday">
                     <p><br><br>
                         Choose Gender
                     </p>
-                    <input type="radio" id="male" name="gender" value="MALE">
-                    <label for="male">Male</label>
-                    <input type="radio" id="female" name="gender" value="FEMALE">
-                    <label for="female">Female</label><br>
-                    <button type="button" class="btn btn-primary">Search Akan Name</button>
-                    <button type="button" class="btn btn-primary">Cancel Name Search</button>                    
+                                      
                 </form>
+                <input id="genderText" type="text" placeholder="Enter Gender"/>
+                <button type="button" class="btn btn-primary" onclick="submitForm()">SUBMIT</button>
+                <h3 id="outputText">Your Akan Name is: </h3>
             </div>
         </div>
         <div>
