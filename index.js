@@ -11,38 +11,25 @@ let maleGender = document.querySelector("#male");
 let femaleGender = document.querySelector("#female");
 let dateBirthday = document.querySelector("#birthday");
 
-switch (searchAkanName()) {
-    case Sunday:
-        maleName = [0];
-        break;
-    case Monday:
-        maleName = [1];
-        break;
-    case Tuesday:
-        maleName = [2];
-        break;
-    case Wednesday:
-        maleName = [3];
-        break;
-    case Thursday:
-        maleName = [4];
-        break;
-    case Friday:
-        maleName= [5];
-        break;
-    case Saturday:
-        maleName= [6];
-        break;
 
 
 function submitForm() {
     let y = document.getElementById("genderText").value;
+    console.log(document.getElementById("genderText"));
+    console.log(y)
+    console.log("femaleGender" + "Akosua");
+let male="male"
     if (y === "") {
         alert("Gender cannot be empty")
+        return;
     }
-    if (y == male && dd === [0]) {
-
-    }}
+    if (y === male) {
+        console.log("Your Akan name is ");
+        let h3 = document.querySelector('#nameCall');
+        h3.innerText = alert("Your Akan name is Kwasi");
+        return;
+    }
+}
 
     //Ughhhhhh..no idea what i'm doing. So, I'll stop here
    //  let inp = document.querySelector("#genderText");
@@ -53,5 +40,4 @@ function submitForm() {
         //if (y === ""){
           //  h3.innerText = "Gender cannot be empty!";
             //return;
-        //}
-    //}
+        //
