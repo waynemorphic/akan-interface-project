@@ -29,6 +29,11 @@ let male="male"
         h3.innerText = alert("Your Akan name is Kwasi");
         return;
     }
+    else if (y === "female"){
+        let h3 = document.querySelector('#nameCall');
+        h3.innerText = alert("Your Akan name is Akosua");
+        return;
+    }
 }
 
     //Ughhhhhh..no idea what i'm doing. So, I'll stop here
