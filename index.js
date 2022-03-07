@@ -1,8 +1,6 @@
 console.log("This is my js")
 let d = document;
 
-
-
 function submitForm() {
     let y = document.getElementById("genderText").value;
     console.log(document.getElementById("genderText"));
