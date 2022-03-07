@@ -35,14 +35,14 @@ switch (searchAkanName()) {
         break;
 
 
-function searchAkanName() {
-    let y = document.getElementById("#male").value;
+function submitForm() {
+    let y = document.getElementById("genderText").value;
     if (y === "") {
         alert("Gender cannot be empty")
     }
     if (y == male && dd === [0]) {
 
-    }}}
+    }}
 
     //Ughhhhhh..no idea what i'm doing. So, I'll stop here
    //  let inp = document.querySelector("#genderText");
