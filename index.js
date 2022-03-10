@@ -5,8 +5,7 @@ function submitForm(Akan){
     event.preventDefault();
 
     let person1 = document.getElementById("genderText1");
-    let person2 = document.getElementById("genderText2");
-    let personName = document.getElementById("nameCall");
+    let person2 = document.getElementById("genderText2");    
     let dateIs = new Date(document.getElementById("birthday").value);
     let malePerson = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
     let femalePerson = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
@@ -39,7 +38,8 @@ function submitForm(Akan){
     }
   
     
-
+// In the code below, i was trying to remove repetition in the object creation and throw illegals 
+// depending on user entries. Help me simplify the code while mantaining the functionality
    
  
 
