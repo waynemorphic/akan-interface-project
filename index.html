@@ -29,19 +29,22 @@
             <div id="Akan-form">
                 <form class="birthday">
                     <label for="birthday">Enter Birthday</label><br><br>
-                    <input type="date"id="birthday" name="birthday">
+                    <input type="datetime-local" id="birthday" name="birthday">
                     <p><br><br>
                         Choose Gender
-                    </p>
-                                      
-                </form>
-                <input id="genderText" type="text" placeholder="Enter Gender"/>
-                <button type="button" class="btn btn-primary" onclick="submitForm()">SUBMIT</button>
-                <h3 id="nameCall"Your Akan Name is: ></h3>
+                    </p>                     
+                    <input type="radio" id='genderText1' name="gender" value="male">
+                    <label for="male">MALE</label>
+                    <input type="radio" id='genderText2' name="gender" value="female">
+                    <label for="female">FEMALE</label>
+
+                    <button type="button" class="btn btn-primary" onclick="submitForm()">SUBMIT</button>
+                    </form>
             </div>
         </div>
-        <div>
-        <h4 class="footer">Designed and Developed by Wayne Kwame Kirimi</h4>  
+        <div id="nameCall">Your Akan Name is: </div>
+        <div class="footer">
+        <h4>Designed and Developed by Wayne Kwame Kirimi</h4>  
         </div>
     </div>
         <script src="index.js" async defer></script>
